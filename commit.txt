@@ -1,0 +1,20 @@
+# Sample Strategy Notes for Hummingbot
+
+Strategy: Grid Trading
+Pair: ETH/USDC
+Exchange: Binance
+
+Entry parameters:
+- Grid levels: 10
+- Upper price: 2100 USDC
+- Lower price: 1700 USDC
+
+Order size: 0.1 ETH
+Order refresh time: 30s
+
+Stop-loss: No
+Take-profit: No
+Notes: This strategy works well in ranging markets with moderate volatility. Adjust grid spacing based on ATR.
+
+Date: 2025-11-05
+Author: friiite76
